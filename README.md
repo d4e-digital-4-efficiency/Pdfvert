@@ -33,8 +33,8 @@ PM> Install-Package Pdfver
 
 #### Usage:
 ```C#
-var inputFile = ""; //file you want to convert
-var outputFile = ""; //new path and new file name for converted PDF (must have .pdf extension)
+var inputFile = "C:\temp\test.docx"; //file you want to convert
+var outputFile = "C:\temp\test.pdf"; //new path and new file name for converted PDF (must have .pdf extension)
 
 PdfvertService.ConvertFileToPdf(inputFile, outputFile);
 ```
