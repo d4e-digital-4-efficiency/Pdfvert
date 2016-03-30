@@ -2,7 +2,7 @@
 ---
 **Convert a variety of file types to PDF using OpenOffice v4.1.2.**
 
-Uses OpenOffice SDK v4.1.2 - DLLs included in nuget package - no need to download.
+Uses OpenOffice SDK v4.1.2 - DLLs included in NuGet Package (no need to download)
 
 #### Supported File Types:
 * .doc
