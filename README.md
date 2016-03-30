@@ -19,7 +19,7 @@ Convert a variety of file types to PDF using OpenOffice
 * .ppt
 * .pptx
 * .odp
-* 
+
 #### Download OpenOffice here:
 [http://www.openoffice.org/download/](http://www.openoffice.org/download/)
 
