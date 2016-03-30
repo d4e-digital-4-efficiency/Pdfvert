@@ -1,9 +1,9 @@
 ﻿using System;
 using NLog;
 
-namespace Pdfvert.Utilities
+namespace Pdfvert.Core.Utilities
 {
-    public static class LogUtility
+    internal static class LogUtility
     {
         private static Logger logger = LogManager.GetCurrentClassLogger();
 

@@ -7,9 +7,9 @@ using unoidl.com.sun.star.frame;
 using unoidl.com.sun.star.lang;
 using unoidl.com.sun.star.uno;
 
-namespace Pdfvert.Utilities
+namespace Pdfvert.Core.Utilities
 {
-    public static class OpenOfficeUtility
+    internal static class OpenOfficeUtility
     {
         public static void StartOpenOffice()
         {

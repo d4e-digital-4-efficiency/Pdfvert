@@ -1,12 +1,12 @@
 ﻿using System;
 using System.Threading;
-using Pdfvert.Utilities;
+using Pdfvert.Core.Utilities;
 
-namespace Pdfvert
+namespace Pdfvert.Core
 {
-    public static class Pdfvert
+    public static class PdfvertService
     {
-        public static void ConvertFile(string inputFile, string outputFile)
+        public static void ConvertFileToPdf(string inputFile, string outputFile)
         {
             PrintStart(inputFile, outputFile);
 

@@ -1,9 +1,9 @@
 ﻿using System;
 using System.IO;
 
-namespace Pdfvert
+namespace Pdfvert.Core
 {
-    public static class Extensions
+    internal static class Extensions
     {
         public static string ConvertExtensionToFilterType(this string path)
         {
