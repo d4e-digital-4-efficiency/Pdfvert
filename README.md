@@ -28,7 +28,7 @@ Uses OpenOffice SDK v4.1.2 - DLLs included in NuGet Package (no need to download
 
 #### Install nuget package:
 ```powershell
-PM> Install-Package Pdfver
+PM> Install-Package Pdfvert
 ```
 
 #### Usage:
