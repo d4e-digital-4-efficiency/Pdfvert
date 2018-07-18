@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Diagnostics;
+using System.Linq;
 using uno;
 using uno.util;
 using unoidl.com.sun.star.beans;
@@ -13,16 +14,16 @@ namespace Pdfvert.Core.Utilities
     {
         public static void StartOpenOffice()
         {
-            var ps = Process.GetProcessesByName("soffice.exe");
-            if (ps.Length != 0) throw new InvalidProgramException("Do you even OpenOffice bro? - OpenOffice not found. Is it installed?");
-            if (ps.Length > 0) return;
+            var ps = Process.GetProcessesByName("soffice");
+            if (ps != null && ps.Any()) return;
 
             var pInfo = new ProcessStartInfo
             {
-                Arguments = "-headless -nofirststartwizard",
                 FileName = "soffice.exe",
+                Arguments = "-headless -nofirststartwizard",
                 CreateNoWindow = true
             };
+
             var p = new Process { StartInfo = pInfo };
             var result = p.Start();
 
