@@ -55,7 +55,7 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Pdfvert\Pdfvert.Core.csproj">
+    <ProjectReference Include="..\Pdfvert.Core\Pdfvert.Core.csproj">
       <Project>{662e3316-d44d-4ca4-8697-d0a8f67bcf7d}</Project>
       <Name>Pdfvert.Core</Name>
     </ProjectReference>
