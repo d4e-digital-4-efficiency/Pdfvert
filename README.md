@@ -1,8 +1,8 @@
 # Pdfvert
 ---
-**Convert a variety of file types to PDF using OpenOffice v4.1.2.**
+**Convert a variety of file types to PDF using OpenOffice v4.1.8. (released on November 10, 2020)**
 
-Uses OpenOffice SDK v4.1.2 - DLLs included in NuGet Package (no need to download)
+Uses OpenOffice SDK v4.1.8 (released on November 10, 2020) - DLLs included in NuGet Package (no need to download)
 
 #### Supported File Types:
 * .doc
@@ -25,6 +25,9 @@ Uses OpenOffice SDK v4.1.2 - DLLs included in NuGet Package (no need to download
 
 #### Download OpenOffice here:
 [http://www.openoffice.org/download/](http://www.openoffice.org/download/)
+
+#### Download OpenOffice SDK here:
+[https://www.openoffice.org/download/devbuilds.html](https://www.openoffice.org/download/devbuilds.html)
 
 #### Install nuget package:
 [https://www.nuget.org/packages/Pdfvert/](https://www.nuget.org/packages/Pdfvert/)
