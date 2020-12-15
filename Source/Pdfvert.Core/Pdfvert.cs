@@ -1,11 +1,24 @@
-﻿using System;
+﻿using Pdfvert.Core.Utilities;
+using System;
 using System.Threading;
-using Pdfvert.Core.Utilities;
 
 namespace Pdfvert.Core
 {
+    /// <summary>
+    /// Pdfvert Service for convert Office document to PDF
+    /// </summary>
     public static class PdfvertService
     {
+        /// <summary>
+        /// Converts the file to PDF.
+        /// </summary>
+        /// <param name="inputFile"> The input file. </param>
+        /// <param name="outputFile"> The output file. </param>
+        /// <exception cref="System.InvalidProgramException">
+        /// These aren't the file types you're looking for. Invalid file type for source file. or
+        /// These aren't the file types you're looking for. Invalid file type for source file. Must
+        /// be PDF.
+        /// </exception>
         public static void ConvertFileToPdf(string inputFile, string outputFile)
         {
             PrintStart(inputFile, outputFile);
@@ -50,6 +63,22 @@ namespace Pdfvert.Core
             }
         }
 
+        /// <summary>
+        /// Prints the end log.
+        /// </summary>
+        private static void PrintEnd()
+        {
+            LogUtility.Log("");
+            LogUtility.Log("You're PDF Is ready!");
+            LogUtility.Log("***************************");
+            LogUtility.Log("");
+        }
+
+        /// <summary>
+        /// Prints the start log.
+        /// </summary>
+        /// <param name="inputFile"> The input file. </param>
+        /// <param name="outputFile"> The output file. </param>
         private static void PrintStart(string inputFile, string outputFile)
         {
             LogUtility.Log("***************************");
@@ -58,14 +87,6 @@ namespace Pdfvert.Core
             LogUtility.Log(DateTime.Now.ToString());
             LogUtility.Log($"Input File: {inputFile}");
             LogUtility.Log($"Ouput FIle: {outputFile}");
-        }
-
-        private static void PrintEnd()
-        {
-            LogUtility.Log("");
-            LogUtility.Log("Daaaaaamn Daniel - You're PDF Is ready!");
-            LogUtility.Log("***************************");
-            LogUtility.Log("");
         }
     }
 }

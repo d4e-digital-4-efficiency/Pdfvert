@@ -2,18 +2,18 @@
 <package >
   <metadata>
     <id>Pdfvert</id>
-    <version>1.0.3</version>
+    <version>1.0.4</version>
     <authors>dmazz55</authors>
     <owners>dmazz55</owners>
     <title>Pdfvert</title>
     <projectUrl>https://github.com/dmazz55/Pdfvert</projectUrl>
     <!-- <iconUrl>http://ICON_URL_HERE_OR_DELETE_THIS_LINE</iconUrl> -->
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <description>Convert a variety of file types to PDF using OpenOffice v4.1.2</description>
+    <description>Convert a variety of file types to PDF using OpenOffice v4.1.8</description>
     <summary>
-      Convert a variety of file types to PDF using OpenOffice v4.1.2
+      Convert a variety of file types to PDF using OpenOffice v4.1.8
 
-      Install OpenOffice v4.1.2 to use:
+      Install OpenOffice v4.1.8 to use:
       http://www.openoffice.org/download/
     </summary>
     <releaseNotes></releaseNotes>
